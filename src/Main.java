@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.List;
 
 public class Main {
@@ -15,7 +16,8 @@ public class Main {
         System.out.println(recursionWithNumbers.decimalToBinaryAuthorsSolution(255, ""));
         System.out.println(recursionWithNumbers.sumOfNaturalNumbersMySolution(4));
 
-
         System.out.println(divideAndConquerAlgorithms.binarySearch(List.of(1, 5, 7, 9), 0, 3, 22));
+        System.out.println(divideAndConquerAlgorithms.fibonacci(7));
+        System.out.println(divideAndConquerAlgorithms.fibonacciOptimised(50L, new HashMap<>()));
     }
 }
